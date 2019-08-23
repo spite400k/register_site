@@ -14,7 +14,7 @@
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style2.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
 </head>
@@ -22,73 +22,53 @@
 <body>
   <div id="wrapper">
     <header id="header">
-
-
-     </header>
+      <div class="inner">
+        <button class="loing">ログイン</span></button>
+        <button class="register">登録</span></button>
+      </div>
+    </header>
     
     <main id="contents">
-      <div class="">
-          <!-- header -->
-          <hgroup class="heading">
-          <h1 class="major">Login Form </h1>
-          </hgroup>
+      <section class="section" id="login">
+          <div class="form">
+              <div class="form-wrapper">
+                  <div class="form-wrapper">
+                      <div class="form-body">
+                          <div class="heading">
+                              <div class="heading-logo">
+                                  <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg" alt="" />
+                                </div>
+                              <p class="tagline">大切な情報をすべて記憶しましょう。</p>
+                          </div>
+                          <div class="loginform">
+                              <form method="post" autocomplete="on" name="login_form" action="/Login.action" id="login_form" class="minimal-form">
+                                <div class="success-notification-light">
+                                </div>
 
-          <div class="login_wrap">
-              <div class="login_left">
+                                <ol>
+                                    <li class="Row">
+                                        <div id="email-wrapper">
+                                          <input maxlength="255" name="username" id="username" placeholder="メールアドレスまたはユーザ名" type="text" class="TextInput TextInput_large"><script type="text/javascript">setTimeout(function(){try{var z=document.getElementById('username');z.focus();z.select();}catch(e){}},1);</script></div>
+                                      </li>
 
-                  <h2>まだ会員ではない方は、</h2>
-                  <p class="mb30">オンラインで海外旅行を予約するお客様は、会員登録（無料）が必要となります。</p>
-                  
-                  <p class="btn_arrow"><input type="button" value="新規会員登録（無料）" class="newbtn" onclick="location.href='./agreement.aspx';"></p>
-                  
-                  <div id="login_merit">
-                  <div id="login_merit_inner">
-                  <h3>オンライン会員になると、さまざまな機能が利用できます</h3>
-                  <ul>
-                  <li>予約商品の確認<br>
-                  オンラインでご予約いただいたご予約中の商品詳細やフライトスケジュール、集合時間・場所等をご確認いただけます。また予約確認書等の出力が可能です。</li>
-                  <li>過去の利用履歴の確認<br>
-                  オンラインでご予約いただいた過去のご旅行履歴をご確認いただけます。</li>
-                  <li>その他<br>
-                  ホームページ上でパスポート情報などの会員情報をご登録いただけます。</li>
-                  </ul>
+                                </ol>
+                                
+                              </form>
+                          </div>  
+                      </div>
                   </div>
-                  </div>
-                  
-                  <div id="member_regist">
-                  <h3>国内旅行のご利用の方は、</h3>
-                  <p><a href="https://nippon-s.his-j.com/mypage/login/jcd/11/">国内旅行会員ログイン・新規会員登録はこちら</a></p>
-                  </div>
-                  
-                  </div>
-            <!-- form starts here -->
-            <form class="sign-up">
-                <h1 class="sign-up-title">さあ　始めましょう！</h1>
-                <input type="text" class="sign-up-input" placeholder="ユーザ名" autofocus>
-                <input type="password" class="sign-up-input" placeholder="パスワード">
-                <input type="submit" value="ログイン" class="sign-up-button">
-            </form>
-          </div>
-
-
-      </div>
+              </div>
+         </form>
+      </section>
     </main>
     <footer id="footer">
       <div class="pageTop">
         <div id="js-pageTop">
- 
+          Page Top
         </div>
       </div>
       <div class="inner">
-        <div class="copyright">
-            <div class="about">
-                <p class="about-links">
-                    <a href="https://twitter.com/" target="_blank"><img src="img/contact/icon_tw.png" alt=""></a>                </p>
-                <p class="about-author">
-                    <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</>
-                    </div>                
-                </p>
-              </div>
+        <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</>
         </div>
     </footer>
   </div>
