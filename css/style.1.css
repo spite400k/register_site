@@ -1,0 +1,15 @@
+#header {
+    width: 100%;
+    background: #ED6712;
+    height: 300px;
+}
+#main {
+    width: 100%;
+    background-color: #CCC;
+    height: 300px;
+}
+#footer {
+    width: 100%;
+    background: #CCC;
+    height: 300px;
+}
