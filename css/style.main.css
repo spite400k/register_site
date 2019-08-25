@@ -1,0 +1,194 @@
+/* ----------------------------
+　全体
+-------------------------------*/
+input {
+    font-family: inherit;
+    color: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: #333333;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+ Osaka, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
+    color: #404040;
+    background: white;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+ul,
+ol,
+li {
+    list-style: none;
+   }
+
+/* ----------------------------
+　ヘッダ
+-------------------------------*/
+
+
+#header {
+    width: 100%;
+    height: 20%;
+    border-bottom: #404040 solid 1px;
+
+}
+
+#header .logo{
+    background: #117092;
+    width:30px;
+}
+
+
+/* ----------------------------
+　メイン
+-------------------------------*/
+
+
+#main {
+    width: 100%;
+    height: 600px;
+
+}
+
+#main .container{
+    display: flex;
+    height: 100%;
+    background: #e9ebee
+}
+#main .container .left_menu{
+    width: 20%;
+}
+#main .container .left_menu li {
+    font-size: 20px;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    background: #117092;
+    border-radius: 10px;
+    color: white;
+  }
+
+#main .container .left_menu li a {
+    padding: 0;
+  }
+
+#main .container .left_menu li a:hover {
+    opacity: 1;
+  }
+
+#main .container .left_menu li a::after {
+    display: none;
+  }
+
+#main .container .contents{
+    width: 80%;
+    display: flex;
+}
+#main .container .contents .post_area{
+    width: 70%;
+
+    border: grey solid 1px;
+    font-weight: bold;
+}
+
+#main .container .contents .post_area .post{
+    min-height:100px;
+    padding: 1% 2%;
+    border: grey solid 1px;
+    font-weight: bold;
+
+    background: white;    
+
+}
+
+#main .container .contents .post_area .post .post_header{
+
+    display: flex;
+}
+
+#main .container .contents .post_area .post .profile_pics{
+    height:50px;
+    width:50px;
+}
+
+#main .container .contents .post_area .post .profile_pics img{
+    height:50px;
+    width:50px;
+}
+
+#main .container .contents .post_area .post .name{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.38;
+
+    margin: 5px 5px;
+}
+
+#main .container .contents .post_area .post .posttime   {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.38;
+
+    margin: 5px 5px;
+}
+
+
+#main .container .contents .post_area .post .post_main{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.38;
+
+    margin: 5px 5px;
+}
+
+#main .container .contents .post_area .post .post_fotter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.38;
+    text-align: justify;
+    color: #117092;
+    
+}
+
+#main .container .contents .post_area .post .post_fotter img{
+    height:20px;
+    width:20px;
+    margin: 5px 5px;
+}
+
+#main .container .contents .trend{
+    width: 30%;
+}
+#main .container .contents .latest_tag{
+    font-size: 20px;
+    padding: 15px 15px;
+    margin: 20px 15px;
+}
+
+#main .container .contents .trend li {
+    font-size: 20px;
+    padding: 15px 15px;
+    margin: 5px 15px;
+    background: silver;
+    border-radius: 5px;
+    color: black;
+  }
+
+#main .container .contents .trend li a {
+    padding: 0;
+  }
+
+#main .container .contents .trend li a:hover {
+    opacity: 1;
+  }
+
+#main .container .leftcontents .trend_menu li a::after {
+    display: none;
+  }
